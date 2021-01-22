@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.brand-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar-brand {
+    margin-right: -8rem;
+}

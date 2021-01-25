@@ -70,6 +70,13 @@
 <div class="container-fluid bg-dark">
 
   <div class="row">
+  
+    <div class="col-xl-3 pt-3 col-intro text-light">
+      <h1 class="mt-3 text-center">Welcome to More Than Story</h1><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia debitis accusantium, quasi necessitatibus eius cum excepturi optio distinctio repellendus nihil, doloribus similique dolores suscipit impedit. Earum maxime perferendis ea?</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eos et, asperiores incidunt vel deleniti, ab assumenda perferendis qui corporis, voluptatibus minus? Expedita vitae consequuntur quaerat tempora est aut velit!</p>
+    </div>
+
     <div class="col-xl-8">
 
       <!-- carousel wrapper -->
@@ -88,17 +95,123 @@
       <!-- /carousel wrapper -->
 
     </div>
+  </div>
 
-    <div class="col-xl-3 pt-3 text-light">
-      <h1 class="mt-3 text-center">Welcome to More Than Story</h1><br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia debitis accusantium, quasi necessitatibus eius cum excepturi optio distinctio repellendus nihil, doloribus similique dolores suscipit impedit. Earum maxime perferendis ea?</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eos et, asperiores incidunt vel deleniti, ab assumenda perferendis qui corporis, voluptatibus minus? Expedita vitae consequuntur quaerat tempora est aut velit!</p>
+  <!-- featured artiles -->
+
+  <div class="row row-articles">
+
+    <!-- main spotlight article -->
+
+    <div class="col-lg-8">
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img-spotlight" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay card-img-spotlight-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div> 
+
+    <!-- /main spotlight article -->
+
+    <div class="col-lg-4">
+      <div class="card-container">
+
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row row-articles">
+    <div class="col-lg-3 col-featured">
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-featured">
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-featured">
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-featured">
+      <div class="card bg-dark mx-auto my-2 text-white">
+        <img class="card-img" src="resources/images/placeholder.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- latest artiles -->
+  <!-- /featured articles -->
+
+  <!-- latest articles -->
+
+  <h2 class="text-light my-5">Latest Articles</h2><hr>
+
+  <?php 
+    for ($i = 0; $i < 5; $i++) { ?>
+
+      <div class="row row-articles">
+        <div class="col-12 col-latest">
+          <div class="card bg-dark mx-auto my-2 text-white">
+            <img class="card-img card-img-latest" src="resources/images/placeholder.png" alt="Card image">
+            <div class="card-img-overlay card-img-latest-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <?php  
+    } ?>
   
 
+  
 
   <!-- /latest articles -->
 
@@ -106,7 +219,11 @@
 
 <!-- /main container -->
 
+<!-- footer -->
 
+<div></div>
+
+<!-- /footer -->
 
 <?php include('includes/footer.php'); ?>
 

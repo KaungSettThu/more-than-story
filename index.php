@@ -196,7 +196,7 @@
     for ($i = 0; $i < 5; $i++) { ?>
 
       <div class="row row-articles">
-        <div class="col-12 col-latest">
+        <div class="col-md-6 col-latest">
           <div class="card bg-dark mx-auto my-2 text-white">
             <img class="card-img card-img-latest" src="resources/images/placeholder.png" alt="Card image">
             <div class="card-img-overlay card-img-latest-overlay">
@@ -205,13 +205,30 @@
             </div>
           </div>
         </div>
-      </div>
+        <div class="col-md-6 col-latest text-light">
+          <h2>Article Heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit repudiandae distinctio ad perferendis error porro eos itaque. Atque eveniet excepturi ea reprehenderit! Iusto assumenda mollitia molestiae fugiat quam perferendis?</p>
+        </div>
+      </div><br><br>
+
+      <div class="row row-articles">
+        <div class="col-md-6 col-latest text-light">
+          <h2>Article Heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit repudiandae distinctio ad perferendis error porro eos itaque. Atque eveniet excepturi ea reprehenderit! Iusto assumenda mollitia molestiae fugiat quam perferendis?</p>
+        </div>
+        <div class="col-md-6 col-latest">
+          <div class="card bg-dark mx-auto my-2 text-white">
+            <img class="card-img card-img-latest" src="resources/images/placeholder.png" alt="Card image">
+            <div class="card-img-overlay card-img-latest-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
 
   <?php  
     } ?>
-  
-
-  
 
   <!-- /latest articles -->
 
@@ -221,7 +238,28 @@
 
 <!-- footer -->
 
-<div></div>
+<div class="row row-footer">
+    <div class="col-2"></div>
+    <div class="col-8 pt-3 pb-5">
+
+      <!-- social media icons -->
+
+      <div class="row d-flex justify-content-center">
+        <p class="text-light d-inline-block"></p>
+        <img src="resources/images/placeholder.png" alt="Facebook" class="footer-icon d-inline-block">
+        <img src="resources/images/placeholder.png" alt="Facebook" class="footer-icon d-inline-block">
+        <img src="resources/images/placeholder.png" alt="Facebook" class="footer-icon d-inline-block"> 
+      </div>  
+
+      <!-- /social media icons -->
+
+      <!-- contact infos -->
+
+      <!-- /contact infos -->
+
+    </div>
+    <div class="col-2"></div>
+</div>
 
 <!-- /footer -->
 

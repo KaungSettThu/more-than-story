@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.bg-dark {
+    background-color: #131F35 !important; 
+}
+
 .logo-wrapper {
     width: 100%;
     margin: 0;
@@ -32,7 +36,6 @@
 .col-latest {
     padding: 0rem 0.2rem;
 }
-
 
 .card {
     width: 100%; 
@@ -71,6 +74,25 @@
 .card:hover .card-img-spotlight-overlay{
     top: 75%;
     height: 25%;
+}
+
+.row-footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+
+}
+
+.footer-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 25rem;
+    margin: 0 1.2rem;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-icon:hover {
+    opacity: 1;
 }
 
 @media only screen and (max-width:1366px) {
